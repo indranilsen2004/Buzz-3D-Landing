@@ -95,6 +95,18 @@ Creating Modern Landing Pages
 
 OUTCOMES:
 
+<img width="1879" height="893" alt="Image" src="https://github.com/user-attachments/assets/bf0f7878-ad04-4000-a142-d6302d0f09d6" />
+
+
+<img width="1806" height="873" alt="Image" src="https://github.com/user-attachments/assets/c264db29-0490-4513-93bc-b5d012105023" />
+
+
+<img width="1878" height="993" alt="Image" src="https://github.com/user-attachments/assets/a29badeb-4a59-48fa-8ced-805824a620da" />
+
+
+<img width="1896" height="995" alt="Image" src="https://github.com/user-attachments/assets/4b02aea9-a5eb-4543-9917-75a19a32a8c3" />
+
+
 
 👨‍💻 Author
 
