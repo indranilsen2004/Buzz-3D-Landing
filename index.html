@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-D Animationb Website Using HTML,CSS & JAVA SCRIPT | Indranil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Indranil</a>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <model-viewer src="stylized_flying_bee_bird_rigged.glb" id="bee-model"></model-viewer>
+    <section class="home">
+        <h1>3D Animation</h1>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2>About Bees</h2>
+            <p>Bees are remarkable flying insects vital to our planet's survival, functioning as nature's primary pollinators. By transferring pollen between flowering plants, they facilitate the growth of numerous fruits, vegetables, and seeds that make up a significant portion of the human diet. These social creatures typically live in highly organized colonies led by a single queen, supported by drones and industrious workers. Beyond their ecological role, honeybees are famous for producing honey and wax, resources humans have utilized for millennia. However, bee populations currently face global threats from habitat loss and pesticides, making their conservation essential for maintaining biodiversity and food security.</p>
+            <a href="#">View More</a>
+        </div>
+    </section>
+    <section class="gallery">
+    <div class="gallery-content">
+        <div class="outer">
+            <div class="inner">
+                <model-viewer src="stylized_flying_bee_bird_rigged.glb" class="bee-yellow" auto-rotate></model-viewer>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <!-- <model-viewer src="stylized_flying_bee_bird_rigged.glb" auto-rotate></model-viewer> -->
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <model-viewer src="stylized_flying_bee_bird_rigged.glb" class="bee-green" auto-rotate></model-viewer>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="contact"> <form class="contact-form">
+        <h2>Contact</h2>
+        
+        <div class="input-group">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+</body>
+</html>
